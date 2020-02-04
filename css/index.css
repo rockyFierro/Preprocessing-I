@@ -132,6 +132,65 @@ table {
 }
 html,
 body {
-  height: 100%;
-  background-color: #d8efff;
+  width: 100%;
+  background-color: rgba(210, 194, 197, 0.78);
+  color: #6c7dc5;
 }
+header {
+  display: flex;
+}
+@media (max-width: 500px) {
+  header {
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+  }
+}
+header .navigation {
+  text-transform: capitalize;
+  color: #6c2984;
+  font-size: 1.2rem;
+}
+header h1 {
+  font-family: 'Paytone One', sans-serif;
+}
+@media (max-width: 500px) {
+  header h1 {
+    border-bottom: aliceblue dashed 2px;
+    text-transform: capitalize;
+    color: #6c2984;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+  }
+}
+header a {
+  font-family: 'Gelasio', serif;
+  text-decoration: none;
+  color: black;
+  line-height: 3ex;
+}
+header a:hover {
+  color: #6c7dc5;
+}
+.portrait img {
+  width: 50%;
+}
+@media (max-width: 500px) {
+  .portrait img {
+    width: 100%;
+  }
+}
+#contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+@media (max-width: 500px) {
+  #contact {
+    width: 100%;
+    font-size: 2rem;
+  }
+}
+/*# sourceMappingURL=index.css.map */
