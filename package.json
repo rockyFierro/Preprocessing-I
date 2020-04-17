@@ -1,0 +1,16 @@
+{
+  "name": "Preprocessing-I",
+  "version": "1.0.0",
+  "description": "A project to ground understanding of preprocessing with LESS",
+  "main": "index.js",
+  "repository": "https://github.com/rockyFierro/Preprocessing-I.git",
+  "author": "Rocky Fierro <finnslighthouse@gmail.com>",
+  "license": "MIT",
+  "private": null,
+  "dependencies": {
+    "browser-sync": "^2.26.7",
+    "less": "^3.11.1",
+    "less-watch-compiler": "^1.14.6",
+    "normalize-css": "^2.3.1"
+  }
+}
